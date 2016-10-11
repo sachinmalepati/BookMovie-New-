@@ -1,5 +1,6 @@
 <?php 
 session_start();
+//comment chestuna urike
 if(!isset($_SESSION['id']))
 {
   header('Location: login.php');
